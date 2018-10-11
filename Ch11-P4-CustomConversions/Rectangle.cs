@@ -21,7 +21,7 @@ namespace Ch11_P4_CustomConversions
             {
                 for (int j = 0; j < Width; j++)
                 {
-                    Console.Write("*");
+                    Console.Write(" *");
                 }
                 Console.WriteLine();
             }
