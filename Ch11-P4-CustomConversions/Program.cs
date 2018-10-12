@@ -62,7 +62,10 @@ namespace Ch11_P4_CustomConversions
 
             Square s3 = new Square { Length = 83 };
             // Attempt to make an implicit cast?
-            Rectangle rect2 = s3;
+            //Rectangle rect2 = s3;
+            Rectangle rect2 = (Rectangle)s3;
+
+            Console.WriteLine(rect2);
 
             #endregion
 

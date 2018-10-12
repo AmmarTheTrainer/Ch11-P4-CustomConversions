@@ -27,5 +27,25 @@ namespace Ch11_P4_CustomConversions
             }
         }
         public override string ToString() => $"[Width = {Width}; Height = {Height}]";
+
+        //public static explicit operator Rectangle(Square s)
+        //{
+        //    Rectangle r = new Rectangle
+        //    {
+        //        Height = s.Length,
+        //        Width = s.Length * 2 // Assume the length of the new Rectangle with (Length x 2).
+        //    };
+        //    return r;
+        //}
+
+        public static implicit operator Rectangle(Square s)
+        {
+            Rectangle r = new Rectangle
+            {
+                Height = s.Length,
+                Width = s.Length * 2 // Assume the length of the new Rectangle with (Length x 2).
+            };
+            return r;
+        }
     }
 }
