@@ -60,12 +60,26 @@ namespace Ch11_P4_CustomConversions
 
             #region Defining Implicit Conversion Routines
 
-            Square s3 = new Square { Length = 83 };
-            // Attempt to make an implicit cast?
-            //Rectangle rect2 = s3;
-            Rectangle rect2 = (Rectangle)s3;
+            //Square s3 = new Square { Length = 83 };
+            //// Attempt to make an implicit cast?
+            ////Rectangle rect2 = s3;
+            //Rectangle rect2 = (Rectangle)s3;
 
-            Console.WriteLine(rect2);
+            //Console.WriteLine(rect2);
+
+            #endregion
+
+            #region Internet Surfing
+
+            // added a digit class
+
+            //Digit dig = new Digit(4);
+            ////double num = dig.val; // it is fine
+            //double num = dig; // it is fine
+
+            //Digit dig2 = 12;
+
+
 
             #endregion
 
