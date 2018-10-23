@@ -15,9 +15,17 @@ namespace Ch11_P4_CustomConversions
 
             #region Recall: Numerical Conversions
 
+<<<<<<< HEAD
             int a = 123;
             long b = a; // Implicit conversion from int to long.
             int c = (int)b; // Explicit conversion from long to int.
+=======
+           // int abc;
+           // double
+            //int a = 123;
+            //long b = a; // Implicit conversion from int to long.
+            //int c = (int)b; // Explicit conversion from long to int.
+>>>>>>> 11fcf13234965e2002e7eb7cba5d303b170d51e6
 
             #endregion
 
